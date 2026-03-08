@@ -16,7 +16,7 @@ Example Output: 56
 '''
 
 def sum(a,b):
-    x = a+b
-    return x*2
+    x = a+b # Sum of ab
+    return x*2 # Double it
 
 print(sum(20,8))
