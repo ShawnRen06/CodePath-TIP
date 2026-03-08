@@ -9,7 +9,7 @@ Example Output: 3
 
 '''
 def get_first(lst):
-    if len(lst) > 1:
+    if len(lst) > 0:
         return lst[0]
     else:
         return None

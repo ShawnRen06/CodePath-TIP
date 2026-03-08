@@ -11,10 +11,8 @@ Example Output: 5
 
 '''
 def get_last(lst):
-    if len(lst) > 1:
+    if len(lst) > 0:
         last = len(lst) - 1
         return lst[last]
     else:
         return None
-    
-print(get_last([]))
